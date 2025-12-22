@@ -1,1 +1,25 @@
 npm create vite@latest .
+
+
+What is React and Why Use It?
+
+Virtual DOM concept
+The Virtual DOM is a lightweight, in-memory representation of the real DOM to minimize costly browser reflows and repaints.
+
+Component-based architecture
+Component-based architecture allows developers to build UI elements once and reuse them across the application.
+
+One-way data flow
+This strict, top-down structure makes it easier to track how data changes affect the UI.
+
+
+JSX Syntax and How It Works
+HTML-like Syntax: JSX closely resembles HTML, using tags, attributes, and nesting to define UI structure.
+Transpilation (How it Works): Browsers cannot read JSX directly. A build tool (like Babel or TSC) transforms JSX into standard JavaScript function calls—specifically, React.createElement().
+Object Representation: After transpilation, JSX becomes a plain JavaScript object representing a Virtual DOM element.
+
+Props (short for properties) are read-only (immutable) data passed from a parent component to a child component
+
+In React, state refers to a built-in object used to store and manage a component's dynamic data that changes over time.
+
+
