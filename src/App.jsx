@@ -1,11 +1,13 @@
-import State from "./state and events.jsx";
-// import Props from "./props.jsx";
+import State from "./React Fundamentals/state and events.jsx";
+import UserCard from "./React Fundamentals/userCard.jsx";
+import Toggle from "./React Fundamentals/Tooglebutton.jsx";
 
 function App() {
   return (
     <div>
       <State />
-      {/* <Props /> */}
+      <UserCard name="John" email="john@example.com" age={28} />
+      <Toggle />
     </div>
   );
 }
